@@ -1,4 +1,4 @@
-package arrays;
+package org.problems.ds.arrays;
 
 /*
  @Author : Jayavardhan Patil
@@ -74,9 +74,6 @@ public class Array_Rotation {
 		arr[arraySize-1] = temp;
 	}
 
-
-
-
 	/*
 	A Juggling Algorithm
 
@@ -131,7 +128,6 @@ public class Array_Rotation {
 			System.out.print(arr[i]+" ");
 		}
 	}
-
 
 	private static void test(int[]a, int no_of_position){
 

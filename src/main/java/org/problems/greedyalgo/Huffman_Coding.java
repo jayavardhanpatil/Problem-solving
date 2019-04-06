@@ -21,8 +21,6 @@ public class Huffman_Coding {
 
 		String str = "oshg gfhweiuf jayavardhan".replace(" ","");
 
-
-
 		char[] charArray = str.toCharArray();
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 		for(char c: charArray){
