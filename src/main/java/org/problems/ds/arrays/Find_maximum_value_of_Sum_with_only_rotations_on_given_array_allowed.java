@@ -29,9 +29,12 @@ public class Find_maximum_value_of_Sum_with_only_rotations_on_given_array_allowe
 
 		for(int j=1;j<a.length;j++){
 
-			currentSum = currentSum + arraySum - a.length*a[a.length-j];
+			int next = currentSum - (arraySum - a[j-1]) + (a[j-1] * (a.length -1 ));
+
+			currentSum = next;
+			//currentSum = currentSum + arraySum - a.length*a[a.length-j];
 			if(currentSum > maxVal){
-				maxVal = currentSum;
+				maxVal = currentSum	;
 			}
 		}
 		return maxVal;
